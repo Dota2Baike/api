@@ -1,0 +1,113 @@
+{
+    "monkey_king": {
+        "dname": "\u9f50\u5929\u5927\u5723",
+        "u": "Monkey_King",
+        "pa": "agi",
+        "attribs": {
+            "str": {
+                "b": 18,
+                "g": "2.50"
+            },
+            "int": {
+                "b": 20,
+                "g": "1.80"
+            },
+            "agi": {
+                "b": 22,
+                "g": "3.20"
+            },
+            "ms": 305,
+            "dmg": {
+                "min": 30,
+                "max": 36
+            },
+            "armor": 0
+        },
+        "mongkey_king_armor": [
+            {
+                "version": "7.0.0",
+                "value": 3
+            },
+            {
+                "version": "7.0.2",
+                "value": 0
+            }
+        ],
+        "monkey_king_boundless_strike": {
+            "dname": "\u68d2\u51fb\u5927\u5730",
+            "affects": "\u6280\u80fd\uff1a <span class=\"attribVal\">\u70b9\u76ee\u6807<\/span><br \/>\u5f71\u54cd\uff1a <span class=\"attribVal\">\u654c\u65b9\u5355\u4f4d<\/span><br \/>\u4f24\u5bb3\u7c7b\u578b\uff1a <span class=\"attribVal\"><font color=\"#71a9ea\">\u7269\u7406<\/font><\/span><br \/>",
+            "desc": "\u9f50\u5929\u5927\u5723\u8ba9\u91d1\u7b8d\u68d2\u53d8\u5927\uff0c\u5e76\u5c06\u5176\u6325\u8d77\u731b\u51fb\u5730\u9762\uff0c\u7729\u6655\u4e00\u6761\u76f4\u7ebf\u4e0a\u7684\u654c\u4eba\u5e76\u9020\u6210\u57fa\u4e8e\u4ed6\u666e\u901a\u653b\u51fb\u7684\u81f4\u547d\u4e00\u51fb\u4f24\u5bb3\u3002\u5177\u6709\u514b\u654c\u673a\u5148\u6548\u679c\u3002",
+            "notes": "",
+            "dmg": "",
+            "attrib": "\u7729\u6655\u6301\u7eed\u65f6\u95f4\uff1a <span class=\"attribVal\">0.4 \/ 0.8 \/ 1.2 \/ 1.6<\/span>",
+            "cmb": "<div class=\"cooldownMana\"><div class=\"mana\"><img alt=\"\u9b54\u6cd5\u6d88\u8017\" title=\"\u9b54\u6cd5\u6d88\u8017\" class=\"manaImg\" src=\"http:\/\/cdn.dota2.com\/apps\/dota2\/images\/tooltips\/mana.png\" width=\"16\" height=\"16\" border=\"0\" \/> 100<\/div><div class=\"cooldown\"><img alt=\"\u51b7\u5374\u65f6\u95f4\" title=\"\u51b7\u5374\u65f6\u95f4\" class=\"cooldownImg\" src=\"http:\/\/cdn.dota2.com\/apps\/dota2\/images\/tooltips\/cooldown.png\" width=\"16\" height=\"16\" border=\"0\" \/> 25<\/div><br clear=\"left\" \/><\/div>",
+            "lore": "\u4f20\u8bf4\u4e2d\u7684\u91d1\u7b8d\u68d2\u6839\u636e\u4e3b\u4eba\u7684\u610f\u613f\u53d8\u5927\u53d8\u957f\uff0c\u786e\u4fdd\u654c\u4eba\u90fd\u9003\u4e0d\u51fa\u9f50\u5929\u5927\u5723\u7684\u624b\u5fc3\u3002",
+            "hurl": "Monkey_King",
+            "changelogs": [
+                {
+                    "version": "7.0.1",
+                    "desc": "Boundless Strike critical strike from 200% on each level to 140%/160%/180%/200%",
+                    "increment": false
+                },
+                {
+                    "version": "7.0.5",
+                    "value": "Boundless Strike stun duration reduced from 0.5/1/1.5/2.0 to 0.4/0.8/1.2/1.6",
+                    "increment": false
+                }
+            ]
+        },
+        "monkey_king_tree_dance": {
+            "dname": "\u4e1b\u6797\u4e4b\u821e",
+            "affects": "\u6280\u80fd\uff1a <span class=\"attribVal\">\u5355\u4f4d\u76ee\u6807<\/span><br \/>\u5f71\u54cd\uff1a <span class=\"attribVal\">\u654c\u65b9<\/span><br \/>",
+            "desc": "\u9f50\u5929\u5927\u5723\u8df3\u4e0a\u4e00\u68f5\u6811\u5e76\u505c\u5728\u4e0a\u9762\u3002\u505c\u7559\u65f6\u83b7\u5f97\u4e7e\u5764\u4e4b\u8dc3\u6280\u80fd\u2014\u2014\u9700\u8981\u6301\u7eed\u65bd\u6cd5\u7684\u8df3\u8dc3\u5f0f\u653b\u51fb\u3002\u5982\u679c\u6811\u6728\u88ab\u6467\u6bc1\uff0c\u4ed6\u5c06\u4ece\u6811\u4e0a\u6389\u4e0b\uff0c\u5e76\u7729\u66554\u79d2\u3002\u5728\u5730\u9762\u53d7\u5230\u73a9\u5bb6\u6216Roshan\u7684\u4f24\u5bb3\u65f6\u4e1b\u6797\u4e4b\u821e\u5c06\u5728\u4e00\u5b9a\u65f6\u95f4\u5185\u65e0\u6cd5\u4f7f\u7528\uff0c\u5904\u4e8e\u51b7\u5374\u72b6\u6001\u3002",
+            "notes": "\u4e1b\u6797\u4e4b\u821e\u5728\u843d\u5730\u65f6\u8fdb\u5165\u51b7\u5374\u3002<br \/>\u53f3\u952e\u70b9\u51fb\u5730\u9762\u4f1a\u4ece\u6811\u4e0a\u8df3\u4e0b\u3002",
+            "dmg": "",
+            "attrib": "\u8ddd\u79bb\uff1a <span class=\"attribVal\">1000<\/span><br \/>\n\u53d7\u5230\u4f24\u5bb3\u65f6\u51b7\u5374\u65f6\u95f4\uff1a <span class=\"attribVal\">3<\/span><br \/>\n\u4e7e\u5764\u4e4b\u8dc3\u4f24\u5bb3\uff1a <span class=\"attribVal\">100 \/ 180 \/ 260 \/ 340<\/span><br \/>\n\u4e7e\u5764\u4e4b\u8dc3\u51cf\u901f\uff1a <span class=\"attribVal\">20% \/ 40% \/ 60% \/ 80%<\/span>",
+            "cmb": "<div class=\"cooldownMana\"><div class=\"cooldown\"><img alt=\"\u51b7\u5374\u65f6\u95f4\" title=\"\u51b7\u5374\u65f6\u95f4\" class=\"cooldownImg\" src=\"http:\/\/cdn.dota2.com\/apps\/dota2\/images\/tooltips\/cooldown.png\" width=\"16\" height=\"16\" border=\"0\" \/> 1.40<\/div><br clear=\"left\" \/><\/div>",
+            "lore": "\u5b59\u609f\u7a7a\u5728\u6811\u9876\u4e0a\u7075\u6d3b\u5730\u8df3\u8dc3\uff0c\u603b\u662f\u4e00\u8dc3\u800c\u81f3\u3002",
+            "hurl": "Monkey_King",
+            "changelogs": []
+        },
+        "monkey_king_primal_spring": {
+            "dname": "\u4e7e\u5764\u4e4b\u8dc3",
+            "affects": "\u6280\u80fd\uff1a <span class=\"attribVal\">\u6301\u7eed\u65bd\u6cd5, \u70b9\u76ee\u6807<\/span><br \/>\u4f24\u5bb3\u7c7b\u578b\uff1a <span class=\"attribVal\">\u9b54\u6cd5<\/span><br \/>\u65e0\u89c6\u6280\u80fd\u514d\u75ab\uff1a <span class=\"attribVal\">\u5426<\/span><br \/>",
+            "desc": "\u9f50\u5929\u5927\u5723\u4ece\u6811\u9876\u8dc3\u4e0b\uff0c\u5bf9\u7740\u9646\u533a\u57df\u5185\u654c\u4eba\u9020\u6210\u51cf\u901f\u548c\u4f24\u5bb3\u3002\u6301\u7eed\u65bd\u6cd5\u7684\u65f6\u95f4\u8d8a\u957f\uff0c\u4f24\u5bb3\u548c\u51cf\u901f\u6548\u679c\u8d8a\u9ad8\u3002",
+            "notes": "",
+            "dmg": "",
+            "attrib": "\u4f24\u5bb3\uff1a <span class=\"attribVal\">100 \/ 180 \/ 260 \/ 340<\/span><br \/>\n\u79fb\u52a8\u901f\u5ea6\u51cf\u7f13\uff1a <span class=\"attribVal\">20% \/ 40% \/ 60% \/ 80%<\/span><br \/>\n\u51cf\u901f\u6301\u7eed\u65f6\u95f4\uff1a <span class=\"attribVal\">4<\/span><br \/>\n\u6700\u5927\u8ddd\u79bb\uff1a <span class=\"attribVal\">1000<\/span>",
+            "cmb": "<div class=\"cooldownMana\"><div class=\"mana\"><img alt=\"\u9b54\u6cd5\u6d88\u8017\" title=\"\u9b54\u6cd5\u6d88\u8017\" class=\"manaImg\" src=\"http:\/\/cdn.dota2.com\/apps\/dota2\/images\/tooltips\/mana.png\" width=\"16\" height=\"16\" border=\"0\" \/> 130\/120\/110\/100<\/div><div class=\"cooldown\"><img alt=\"\u51b7\u5374\u65f6\u95f4\" title=\"\u51b7\u5374\u65f6\u95f4\" class=\"cooldownImg\" src=\"http:\/\/cdn.dota2.com\/apps\/dota2\/images\/tooltips\/cooldown.png\" width=\"16\" height=\"16\" border=\"0\" \/> 19\/17\/15\/13<\/div><br clear=\"left\" \/><\/div>",
+            "lore": "\u4ece\u6d53\u5bc6\u7684\u6811\u4e1b\u4e2d\u8dc3\u5411\u654c\u519b\u4e2d\u592e\uff0c\u5b59\u609f\u7a7a\u7684\u653b\u51fb\u6beb\u4e0d\u7559\u60c5\u3002",
+            "hurl": "Monkey_King",
+            "changelogs": [
+                {
+                    "version": "7.0.4",
+                    "desc": "Primal Spring slow rescaled from 40/50/60/70% to 30/45/60/75%"
+                }
+            ]
+        },
+        "monkey_king_jingu_mastery": {
+            "dname": "\u5982\u610f\u68d2\u6cd5",
+            "affects": "\u6280\u80fd\uff1a <span class=\"attribVal\">\u88ab\u52a8<\/span><br \/>\u65e0\u89c6\u6280\u80fd\u514d\u75ab\uff1a <span class=\"attribVal\"><font color=\"#70EA72\">\u662f<\/font><\/span><br \/>",
+            "desc": "\u9f50\u5929\u5927\u5723\u7684\u653b\u51fb\u5524\u9192\u4e86\u91d1\u7b8d\u68d2\u7684\u529b\u91cf\u3002\u8fde\u7eed\u653b\u51fb\u56db\u6b21\u540c\u4e2a\u82f1\u96c4\u540e\u9f50\u5929\u5927\u5723\u7684\u4e0b\u56db\u6b21\u653b\u51fb\u5f97\u5230\u52a0\u5f3a\uff0c\u83b7\u5f97\u4e86\u653b\u51fb\u529b\u52a0\u6210\u548c\u5438\u8840\u6548\u679c\u3002",
+            "notes": "\u68d2\u51fb\u5927\u5730\u51fb\u4e2d\u654c\u4eba\u65f6\u4e5f\u4f1a\u8ba1\u5165\u653b\u51fb\u6b21\u6570\u3002",
+            "dmg": "",
+            "attrib": "\u6240\u9700\u6b21\u6570\uff1a <span class=\"attribVal\">4<\/span><br \/>\n\u8ba1\u6570\u6301\u7eed\u65f6\u95f4\uff1a <span class=\"attribVal\">10<\/span><br \/>\n\u80fd\u91cf\u70b9\u6570\uff1a <span class=\"attribVal\">4<\/span><br \/>\n\u653b\u51fb\u529b\u52a0\u6210\uff1a <span class=\"attribVal\">75 \/ 100 \/ 125 \/ 150<\/span><br \/>\n\u989d\u5916\u5438\u8840\uff1a <span class=\"attribVal\">15% \/ 30% \/ 45% \/ 60%<\/span>",
+            "cmb": "",
+            "lore": "\u91d1\u7b8d\u68d2\u80fd\u654f\u9510\u611f\u77e5\u4e3b\u4eba\u7684\u60c5\u7eea\uff0c\u5728\u5b59\u609f\u7a7a\u5c55\u73b0\u6218\u610f\u65f6\u6563\u53d1\u529b\u91cf\u3002",
+            "hurl": "Monkey_King",
+            "changelogs": [
+                {
+                    "version": "7.0.1",
+                    "desc": "Reduced counter duration from 15 to 10.",
+                    "increment": false
+                },
+                {
+                    "version": "7.0.2",
+                    "desc": "Jingu Mastery bonus damage from 80/120/160/200 to 75/100/125/150.\rJingu Mastery lifesteal from 20/30/40/50% to 15/30/45/60%",
+                    "increment": false
+                }
+            ]
+
+        }
+    }
+}

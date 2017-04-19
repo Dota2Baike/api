@@ -1,3 +1,8 @@
+Version 7.0.1
+    Reduced Boundless Strike icon.png Boundless Strike critical strike from 200% on each level to 140%/160%/180%/200%.
+Jingu Mastery icon.png Jingu Mastery:
+Reduced counter duration from 15 to 10.
+
 Version 7.0.2
     Monkey King:
     * Base armor reduced by 3
@@ -19,3 +24,5 @@ Version 7.0.5
     * Monkey King: Primal Spring cooldown from 16 to 19/17/15/13
     * Monkey King: Strength growth from 2.2 to 2.5
     * Monkey King: Wukong's Command cooldown from 100/85/70 to 130/110/90
+
+    http://wiki.teamliquid.net/dota2/Monkey_King
