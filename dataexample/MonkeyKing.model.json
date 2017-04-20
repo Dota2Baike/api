@@ -1,0 +1,159 @@
+{
+  "name": "MonkeyKing",
+  "cname": "齐天大圣",
+  "pa": "agi", // str, int, agi
+  "attribs": {
+    "str": {
+      "b": 18,
+      "g": "2.50" 
+    },
+    "int": {
+      "b": 20,
+      "g": "1.80"
+    },
+    "agi": {
+      "b": 22,
+      "g": "3.20"
+    },
+    "ms": 305, // movement speed
+    "tr": 0.6, // turn rate
+    "vr": { // vision range
+      "day": 1800,
+      "night": 800
+    },
+    "ar": 300, // attack range
+    "ps": "instant", // projectile speed
+    "atta": { // attack animation
+      "b": 0.45,
+      "a": 0.2 
+    },
+    "bat": 1.7, // base attack time
+    "magicr": "25%", // magic resistance
+    "collsize": 8, // collision size
+    "legs": 2,
+    "dmg": {
+      "min": 30,
+      "max": 36
+    },
+    "armor": 0.08
+  },
+  "dac": "",
+  "roles": ["Melee", "Carry", "Escape", "Disabler", "Initiator"],
+  "skills": [
+    {
+      "name": "monkey_king_boundless_strike",
+      "ability": "target_point",
+      "affects": "enemies",
+      "damage": "physical",
+      "cooldown": [25],
+      "manacost": [100],
+      "attribs": [
+        {"name": "cast_animation", "value": [0.4, 0.5]},
+        {"name": "cast_range", "value": 1200},
+        {"name": "effect_length", "value": 1200},
+        {"name": "effect_width", "value": 150},
+        {"name": "critial_damage", "value":["140%", "160%", "180%", "200%"]},
+        {"name": "stun_duration", "value": [0.4, 0.8, 1.2, 1.6]}
+      ]
+    },
+    {
+      "name": "monkey_king_tree_dance",
+      "ability": "target_unit",
+      "affets": "self/trees",
+      "cooldown": 1.4,
+      "manacost": 0,
+      "attribs": [
+        {"name": "cast_animation", "value": [0.3, 0]},
+        {"name": "cast_range", "value": 1000},
+        {"name": "damage_cooldown", "value": 3},
+        {"name": "day_tree_vision", "value": 800},
+        {"name": "night_tree_vision", "value": 400},
+        {"name": "unperch_stun_duration", "value": 4}
+      ]
+    },
+    {
+      "name": "monkey_king_primal_spring",
+      "ability": "target_area/channeled", // 持续释法,
+      "affets": "enemies",
+      "damage": "magical",
+      "cooldown": [19, 17, 15, 13],
+      "manacost": [130, 120, 110, 100],
+      "attribs": [
+        {"name":"cast_animation", "value": [0, 0]},
+        {"name":"cast_range", "value": "global"},
+        {"name":"max_leap_distance", "value": 1000},
+        {"name":"radius", "value": 375},
+        {"name":"max_channel_time", "value": 1.6},
+        {"name":"max_damage", "value": [100, 180, 260, 340]},
+        {"name":"max_movement_speed_slow", "value": ["20%", "40%", "60%", "80%"]},
+        {"name":"slow_duration", "value": 4}
+      ]
+    },
+    {
+      "name": "monkey_king_primal_spring_early",
+      "ability": "no_target",
+      "affets": "self",
+      "cooldown": 0,
+      "attribs": [
+        {"name": "cast_animation", "value": [0, 0]}
+      ]      
+    },
+    {
+      "name": "monkey_king_jingu_mastery",
+      "ability": "passive",
+      "affets": "enemies/self",
+      "attribs": [
+        {"name": "required_hits", "value": 4},
+        {"name": "charges", "value": 4},
+        {"name": "attack_damage_bonus", "value": [[75, 100, 125, 150], [150, 175, 200, 225]]},
+        {"name": "lifesteal", "value": ["15%", "0.30", "0.45", "0.60"]},
+        {"name": "buff_duration", "value": 35}
+      ]
+    },
+    {
+      "name": "monkey_king_mischief",
+      "ability": "no_target",
+      "affects": "self",
+      "attribs": [
+        {"name": "cast_animation", "value": [0, 0.53]},
+        {"name": "set_movement_speed_default", "value": 200},
+        {"name": "set_movement_speed_as_courier", "value": 350}
+      ]
+    },
+    {
+      "name": "monkey_king_untransform",
+      "ability": "no_target",
+      "affects": "self",
+      "cooldown": 1,
+      "attribs": [
+        {"name": "cast_animation", "value": [0, 0.53]}
+      ]
+    },
+    {
+      "name": "monkey_king_wukongs_command",
+      "ability": "target_area",
+      "affects": "enemy_heroes",
+      "damage": "physical",
+      "cooldown": [130, 110, 90],
+      "manacost": 100,
+      "attribs": [
+        {"name": "cast_animation", "value": [1.2, 0.37]},
+        {"name": "cast_range", "value": 500},
+        {"name": "interior_radius", "value": 300},
+        {"name": "exterior_radius", "value": 750},
+        {"name": "leadership_radius", "value": 780},
+        {"name": "number_of_interior_soldiers", "value": 5},
+        {"name": "number_of_exterior_soldiers", "value": 9},
+        {"name": "soldiers_attack_speed", "value": 2},
+        {"name": "attack_damage_bonus", "value": [50, 70, 90]},
+        {"name": "max_duration", "value": 13}
+      ]
+    }
+  ],
+  "genius": [
+    {
+      "name": "monkey_king_genius_10",
+      ""
+    }
+  ]
+}
