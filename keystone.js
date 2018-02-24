@@ -7,8 +7,8 @@ var keystone = require('keystone');
 var handlebars = require('express-handlebars');
 
 keystone.init({
-	'name': 'api',
-	'brand': 'api',
+	'name': 'dota2baike api',
+	'brand': 'dota2baike api',
 
 	'sass': 'public',
 	'static': 'public',
@@ -38,8 +38,12 @@ keystone.set('locals', {
 });
 keystone.set('routes', require('./routes'));
 
+// 只能有4个nav
 keystone.set('nav', {
 	users: 'users',
+	dotaheros: 'dotaheros',
+	dotaversions: 'dotaversions',
+	dotaabilities: 'dotaabilities'
 });
 
 
